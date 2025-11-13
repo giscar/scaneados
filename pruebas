@@ -1,0 +1,41 @@
+svc-7e5ebbbe-ec55-4109-ae8b-2058e1af8bcb-dml.azr-virginia1-2.svc.singlestore.com
+
+
+librosrvieDESA
+admin
+
+
+s1 -> 4 hilos
+
+pruebas s1 en secuencial
+1 millon ->3m 38.79s
+2 millon ->6m 13.68s
+3 millon ->10m 22.69s
+2 millon ->5m 54.41s 
+1 millon ->3m 11.35s
+3 millon ->10m 34.96s
+2 millon ->5m 40.15s 
+3 millon ->8m 28.68s
+1 millon ->3m 19.47s
+3 millon ->8m 23.52s
+
+
+
+s4 -> 8 hilos
+
+pruebas s1 en secuencial
+
+4 millon -> 4m 30.69s
+5 millon -> 4m 11.73s
+8 millon -> 6m 5.42s
+10 millon -> 7m 29.95s
+
+5 millon -> 3m 30.93s
+8 millon ->5m 43.83s
+4 millon -> 3m 1.16s
+10 millon -> 6m 55.91s
+
+8 millon -> 5m 40.13s
+10 millon -> 6m 48.19s
+5 millon -> 3m 29.56s
+4 millon -> 3m 1.29s
